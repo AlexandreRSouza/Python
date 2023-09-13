@@ -1,6 +1,6 @@
-algo = input('Digite algo: ')
-print('O tipo primitivo desse valor é ', type(algo))
-print('Só tem espaços? ', algo.isspace())
-print('É um numero? ', algo.isnumeric())
-print('E´alfabetico? ', algo.isalpha())
-print('É alfanumerico? ', algo.isalnum())
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+
+soma = n1 + n2
+
+print('A soma de {} + {} é = {} ' .format(n1, n2, soma))
