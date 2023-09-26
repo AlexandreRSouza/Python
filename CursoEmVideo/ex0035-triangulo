@@ -1,0 +1,9 @@
+a = float(input('Primeiro lado: '))
+b = float(input('Segundo  lado: '))
+c = float(input('Terceiro lado: '))
+    
+    # Testando se é triângulo
+if (a + b < c) or (a + c < b) or (b + c < a):
+    print('Nao é um triangulo')
+else:
+    print('As 3 retas formam um triângulo!')
